@@ -74,6 +74,7 @@ class MyGame(arcade.Window):
 
         self.snake = Snake()
         self.apple = Apple()
+        # self.set_update_rate(1/30)
 
     def on_draw(self):
         # This command should happen before we start drawing. It will clear
