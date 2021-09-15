@@ -22,7 +22,7 @@ class Apple(arcade.Sprite):
 
     def draw(self):
         arcade.draw_circle_filled(self.center_x, self.center_y, self.size, self.color)
-     
+
 
 class Snake(arcade.Sprite):
     """
